@@ -12,6 +12,14 @@ body{
     z-index: 1;
     background-color: #eee;
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "minima"
+    "header"
+    "main"
+    "footer";
 }
 
 a{
@@ -32,6 +40,7 @@ a{
     position: fixed;
     top: 0;
     z-index: 100;
+    grid-area: minima;
 }
 
 .minima__text{
@@ -57,6 +66,7 @@ a{
     position: fixed;
     display: flex;
     align-items: center;
+    grid-area: header;
 }
 
 .nombre-compañia{
@@ -144,6 +154,10 @@ a{
 }
 
 /* :::::CATEGORÍAS::::: */
+
+.main{
+    grid-area: main;
+}
 
 .categorias{
     background-color: #ffc0cb;
@@ -236,6 +250,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    grid-area: footer;
 }
 
 .footer__h6{
