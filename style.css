@@ -13,7 +13,7 @@ body{
     background-color: #eee;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: 100%;
     grid-template-rows: auto;
     grid-template-areas: 
     "minima"
@@ -36,7 +36,7 @@ a{
     background-color: #ffc0cb;
     justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 8px;
     position: fixed;
     top: 0;
     z-index: 100;
@@ -122,12 +122,12 @@ a{
     font-weight: 600;
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding: 25px 0;
 }
 
 .nav-menu li a:hover{
     color: #9E4C7E;
-    font-size: 20px;
+    font-size: 18px;
     transition: 1s;
 }
 
@@ -181,7 +181,7 @@ a{
 
 .categorias__li{
     padding: 8px;
-    margin: 4px;
+    margin: 4px 4px 4px 1rem;
     display: block;
     border: #000 1px solid;
     border-radius: 6px;
@@ -222,19 +222,16 @@ a{
     padding: 45px 0 25px 0;
 }
 
-.mas-vendido img, .oferta img{
-    width: 100%;
-    height: 70%;
-}
-
 .mas-vendido h5, .oferta h5{
     text-align: center;
     padding: 1px;
 }
 
 .promocion__img{
+    width: 90%;
     padding-top: 25px;
     padding-bottom: 15px;
+    margin: 0 5%;
 }
 
 .promocion__img:hover{
@@ -245,8 +242,9 @@ a{
 /* :::::FOOTER::::: */
 
 .footer{
+    width: 100%;
     background-color: #ffc0cb;
-    padding: 25px;
+    padding: 25px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -256,10 +254,13 @@ a{
 .footer__h6{
     font-size: 12px;
     font-weight: 600;
+    padding: 15px 0 10px 0;
+    text-align: center;
 }
 
 .footer__ul{
     list-style: none;
+    text-align: center;
 }
 
 .footer__ul a:hover{
@@ -273,6 +274,30 @@ a{
 .main{
     margin: 30px 0;
 }
+
+/* imagenes */
+    .img__global{
+        cursor: pointer;
+        grid-area: images;
+        width: 90%;
+        height: auto;
+        margin: 35px 5% 15px 5%;
+    }
+
+    .text__global{
+        text-align: center;
+    }
+
+    .article__images{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        margin-top: 25px;
+    }
+
+    .ulti{
+        margin-bottom: 25px;
+    }
 
 @media screen and (min-width: 480px) and (max-width: 600px){
 
@@ -300,12 +325,17 @@ a{
 
     .categorias__li{
         padding: 10px;
-        margin: 10px 5px;
+        margin: 10px 5px 10px 1.7rem;
     }
 
     .categorias__a{
         font-size: 20px;
         padding: 10px;
+    }
+
+    .promocion__img{
+        width: 70%;
+        margin: 0 15%;
     }
 
 }
@@ -340,12 +370,17 @@ a{
 
     .categorias__li{
         padding: 10px;
-        margin: 10px 5px;
+        margin: 10px 5px 10px 1,7rem;
     }
 
     .categorias__a{
         font-size: 20px;
         padding: 10px;
+    }
+
+    .promocion__img{
+        width: 60%;
+        margin: 0 20%;
     }
 
 }
@@ -356,6 +391,11 @@ a{
         height: auto;
         box-sizing: content-box;
         overflow: auto;
+        padding: 35px 0 55px 0;
+    }
+    
+    .categorias__h4{
+        padding: 30px;
     }
 
     .nav{
@@ -371,10 +411,6 @@ a{
         padding-right: 35px;
     }
 
-    .categorias{
-        padding: 55px 0;
-    }
-
     .categorias__li{
         padding: 12px;
     }
@@ -383,6 +419,7 @@ a{
         font-size: 20px;
         font-weight: 400;
         text-align: center;
+        width: 100%;
     }
 
     .footer__h6{
@@ -403,6 +440,12 @@ a{
         font-size: 24px;
         font-weight: 400;
         padding: 55px;
+    }
+
+    .img__global{
+        width: 90%;
+        height: 80%;
+        margin: 35px 10% 15px 20%;
     }
 
 }
@@ -464,7 +507,7 @@ a{
 
     .nav-menu li a{
         color: #000;
-        font-size: 24px;
+        font-size: 28px;
         text-transform: none;
         font-weight: 600;
         padding: 0 5px;
@@ -487,7 +530,7 @@ a{
     }
 
     .categorias__ul{
-        margin: 45px 0;
+        margin: 45px 3rem;
     }
 
     .categorias__li{
@@ -961,6 +1004,10 @@ a{
     .pinzas__space{
         margin-bottom: 35px;
     }
+
+    .caja h5{
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -979,6 +1026,18 @@ a{
 
     .pinzas__space{
         margin-bottom: 35px;
+    }
+
+    .caja h5{
+        font-size: 18px;
+    }
+
+    .oferta__h4, .mas-vendido__h4{
+        font-size: 20px;
+    }
+
+    .footer__ul a{
+        font-size: 18px;
     }
 }
 /* kit inicial */
