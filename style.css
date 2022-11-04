@@ -360,6 +360,58 @@ a{
         margin-bottom: 25px;
     }
 
+    .precio{
+        color: #000;
+    }
+
+    .img__envios{
+        align-items: center;
+        width: 80%;
+        margin: 25px 10% 25px 10%;
+    }
+
+    .text__envios{
+        text-align: center;
+        padding: 10px;
+    }
+
+    .box__envios{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 45px 0;
+    }
+
+    #main__contacto{
+        top: 110px;
+    }
+
+    .text__contacto{
+        padding: 15px 20px;
+        color: #9E4C7E;
+        text-decoration: underline;
+    }
+
+    .span__contacto{
+        padding: 15px 20px;
+    }
+
+    .p__contacto{
+        text-align: center;
+        font-size: 16px;
+        padding: 25px;
+        margin: 55px 0;
+    }
+
+    .ul_contacto{
+        padding: 35px 0;
+    }
+
+    .li__contacto{
+        padding: 10px;
+    }
+
 @media screen and (min-width: 480px) and (max-width: 600px){
 
     .nav{
@@ -933,6 +985,24 @@ a{
     .comunicado__text{
         font-size: 18px;
     }
+
+    .p__contacto{
+        font-size: 20px;
+    }
+
+    .li__contacto{
+        padding: 45px 45px;
+        font-size: 18px;
+    }
+
+    .ul__contacto{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -1234,5 +1304,30 @@ a{
        grid-template-areas: 
        "img1 img2"
        "img3 img4";
+    }
+
+    .box__envios{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: 100%;
+        margin: 45px 0;
+    }
+
+    .p__contacto{
+        font-size: 20px;
+    }
+
+    .li__contacto{
+        padding: 45px 45px;
+        font-size: 18px;
+    }
+
+    .ul__contacto{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
     }
 }
