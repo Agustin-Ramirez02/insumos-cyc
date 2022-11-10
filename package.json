@@ -1,0 +1,19 @@
+{
+  "name": "pakete_insumoscyc",
+  "version": "1.0.0",
+  "description": "un paquete de SASS para Insumos CyC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agustin-Ramirez02/insumos-cyc.git"
+  },
+  "author": "Agustin Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agustin-Ramirez02/insumos-cyc/issues"
+  },
+  "homepage": "https://github.com/Agustin-Ramirez02/insumos-cyc#readme"
+}
