@@ -179,7 +179,7 @@ a {
 .categorias__h4 {
   font-size: 24px;
   text-align: center;
-  padding-top: 3rem;
+  padding-top: 4rem;
   margin-bottom: 20px;
 }
 
@@ -187,11 +187,12 @@ a {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 35px;
 }
 
 .categorias__li {
   padding: 8px;
-  margin: 4px 4px 4px 1rem;
+  margin: 6px 4px 6px 1rem;
   display: block;
   border: #000 1px solid;
   border-radius: 6px;
@@ -269,6 +270,10 @@ a {
 .footer__ul {
   list-style: none;
   text-align: center;
+}
+
+.footer__ul a{
+  margin-bottom: 5px;
 }
 
 .footer__ul a:hover {
@@ -391,7 +396,8 @@ a {
 
 .p__contacto {
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 500;
   padding: 25px;
   margin: 55px 0;
 }
@@ -1127,7 +1133,8 @@ a {
     margin: 45px 0;
   }
   .p__contacto {
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 600;
   }
   .li__contacto {
     padding: 45px 45px;

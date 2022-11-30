@@ -188,12 +188,12 @@ a{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 35px;
+    margin-top: 45px;
 }
 
 .categorias__li{
     padding: 8px;
-    margin: 6px 4px 6px 1rem;
+    margin: 16px 4px 16px 1.4rem;
     display: block;
     border: #000 1px solid;
     border-radius: 6px;
@@ -269,6 +269,9 @@ a{
 .footer__ul{
     list-style: none;
     text-align: center;
+    a{
+        margin-bottom: 5px;
+    }
     a:hover{
         color: #9E4C7E;
     }
@@ -392,7 +395,8 @@ a{
 
     .p__contacto{
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
+        font-weight: 500;
         padding: 25px;
         margin: 55px 0;
     }
@@ -1330,6 +1334,7 @@ a{
 
     .p__contacto{
         font-size: 20px;
+        font-weight: 500;
     }
 
     .li__contacto{
