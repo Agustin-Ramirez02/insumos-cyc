@@ -410,6 +410,10 @@ a {
   padding: 10px;
 }
 
+#category{
+  background-color: #eee;
+}
+
 @media screen and (min-width: 480px) and (max-width: 600px) {
   .nav {
     justify-content: space-between;
